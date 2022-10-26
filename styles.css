@@ -26,6 +26,8 @@ html {
   text-transform: uppercase;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
@@ -33,15 +35,20 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
+
 }
 
+/* footer-first section */
+
 .footer-first-section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 128px 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 70px;
 }
+  
+
 
 .footer-first-div {
   display: flex;
@@ -87,7 +94,6 @@ form > div {
   flex-wrap: wrap;
   border-collapse: collapse;
   align-items: center;
-  
 }
 
 form > div > input {
@@ -110,10 +116,56 @@ button {
   height: 42px;
   margin-left: -30px;
 }
+/* footer-first section end */
+
+
+
+
+
+
+/* footer-second section */
+.footer-second-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-transform: none;
+  padding: 34px 0px 200px 0px;
+  border-top: 2px dashed rgb(179, 175, 175);
+  margin 0 70px;
+}
+
+.footer-second-section-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+}
+
+.footer-logo > p {
+    font-size: 0.9rem;
+    min-width: 215px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
   .footer-first-section {
-    padding: 128px 50px;
+    padding: 50px 50px;
   }
   .footer-first-div {
     flex-direction: column;
@@ -127,7 +179,7 @@ button {
     gap: 5px;
     display: flex;
     justify-content: center;
-}
+  }
 
   form > div > input {
     width: 75%;
@@ -137,4 +189,14 @@ button {
     height: 35px;
     margin-left: 0;
   }
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-second-section {
+    gap: 2rem;
+    padding: 30px 50px;
+  }
+  
 }
