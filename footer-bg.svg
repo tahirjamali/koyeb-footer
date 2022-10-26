@@ -1,0 +1,51 @@
+<svg width="1280" height="641" viewBox="0 0 1280 641" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3_2)">
+<rect width="1280" height="641" fill="white"/>
+<path d="M2 0H1282V641H2V0Z" fill="#EEEEEE"/>
+<g filter="url(#filter0_b_3_2)">
+<rect x="2" width="1280" height="641" fill="url(#paint0_radial_3_2)"/>
+</g>
+<g filter="url(#filter1_b_3_2)">
+<rect x="2" width="1280" height="641" fill="white" fill-opacity="0.82"/>
+</g>
+<g opacity="0.5">
+<line x1="2" y1="77.5" x2="1282" y2="77.5" stroke="#CBCBCB"/>
+<line x1="2" y1="198.5" x2="1282" y2="198.5" stroke="#CBCBCB"/>
+<line x1="2" y1="561.5" x2="1282" y2="561.5" stroke="#CBCBCB"/>
+<line x1="2" y1="440.5" x2="1282" y2="440.5" stroke="#CBCBCB"/>
+<line x1="2" y1="319.5" x2="1282" y2="319.5" stroke="#CBCBCB"/>
+</g>
+<g opacity="0.5">
+<line x1="1.5" y1="641" x2="1.5" y2="-1.21531e-10" stroke="#CDCCCC"/>
+<line x1="160.875" y1="641" x2="160.875" stroke="#CDCCCC"/>
+<line x1="320.25" y1="641" x2="320.25" stroke="#CDCCCC"/>
+<line x1="479.625" y1="641" x2="479.625" stroke="#CDCCCC"/>
+<line x1="639" y1="641" x2="639" stroke="#CDCCCC"/>
+<line x1="798.375" y1="641" x2="798.375" stroke="#CDCCCC"/>
+<line x1="957.75" y1="641" x2="957.75" stroke="#CDCCCC"/>
+<line x1="1117.12" y1="641" x2="1117.12" stroke="#CDCCCC"/>
+<line x1="1276.5" y1="641" x2="1276.5" stroke="#CDCCCC"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_3_2" x="-71" y="-73" width="1426" height="787" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="36.5"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3_2" result="shape"/>
+</filter>
+<filter id="filter1_b_3_2" x="-54" y="-56" width="1392" height="753" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="28"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3_2" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_3_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(190 182.5) rotate(38.1572) scale(222.556 306.334)">
+<stop offset="0.480764" stop-color="#02ED60"/>
+<stop offset="0.881121" stop-color="#2AE90B" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_3_2">
+<rect width="1280" height="641" fill="white"/>
+</clipPath>
+</defs>
+</svg>

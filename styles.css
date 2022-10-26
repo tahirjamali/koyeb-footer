@@ -1,0 +1,140 @@
+@font-face {
+  font-family: gilroy-bold;
+  src: url(./fonts/gilroy-bold.otf);
+}
+
+@font-face {
+  font-family: gilroy-light;
+  src: url(./fonts/gilroy-light.otf);
+}
+@font-face {
+  font-family: gilroy-medium;
+  src: url(.//fonts/Gilroy-Medium.woff2);
+}
+@font-face {
+  font-family: gilroy-regular;
+  src: url(./fonts/Gilroy-Regular.woff2);
+}
+@font-face {
+  font-family: gilroy-semibold;
+  src: url(./fonts/Gilroy-SemiBold.woff2);
+}
+
+body,
+html {
+  font-family: "gilroy-light";
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background-image: url("./footer-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.footer-first-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 128px 70px;
+}
+
+.footer-first-div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10rem;
+}
+
+h1 {
+  font-size: 14px !important;
+  font-family: "gilroy-medium" !important;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "gilroy-medium" !important;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+}
+
+li {
+  padding-bottom: 15px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+form > p {
+  font-size: 1rem;
+  text-transform: none;
+}
+
+form > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-collapse: collapse;
+  align-items: center;
+  
+}
+
+form > div > input {
+  font-family: gilroy-medium;
+  font-size: 17px;
+  border: 1px solid rgb(175, 173, 173);
+  border-radius: 50px;
+  padding: 10px 30px;
+  width: 240px;
+}
+
+button {
+  background-color: rgb(17, 222, 130);
+  color: rgb(255, 255, 255);
+  font-family: gilroy-Regular;
+  font-size: 13px;
+  border: none;
+  border-radius: 50px;
+  width: 110px;
+  height: 42px;
+  margin-left: -30px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-first-section {
+    padding: 128px 50px;
+  }
+  .footer-first-div {
+    flex-direction: column;
+    gap: 0;
+  }
+  .footer-first-div > div {
+    margin-bottom: 50px;
+  }
+
+  form > div {
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+  form > div > input {
+    width: 75%;
+    text-align: center;
+  }
+  button {
+    height: 35px;
+    margin-left: 0;
+  }
+}
