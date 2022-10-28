@@ -1,2 +1,2 @@
 # koyeb-footer
-A responsive Footer made in pure CSS &amp; HTML
+A responsive Footer of koyeb website made in pure CSS &amp; HTML 
